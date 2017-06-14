@@ -1,0 +1,341 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 900;
+	margin: 0;
+}
+
+/* Header */
+
+.el-header {
+	background-image: url(../img/bg-header.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;	
+}
+
+.navbar-default {
+	background-color: transparent;
+    background: transparent;
+    border-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #FFF;
+}
+
+
+.navbar-default .navbar-nav>li>a:focus, 
+.navbar-default .navbar-nav>li>a:hover {
+    color: #BFBFBF;
+}
+
+/* Banner */
+
+.savory-culinary {
+	margin-top: 100px;
+}
+
+.savory-culinary img {
+    max-width: 250px;
+    max-height: 250px;
+}
+
+.savory-down {
+	padding-top: 120px;
+}
+
+.circulo-down {
+	font-size: 30px;
+    line-height: 50px;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    letter-spacing: normal;
+    color: white;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.circulo-down:hover,
+.circulo-down i:hover {
+    color: #BFBFBF;
+    border-color: #BFBFBF;
+}
+
+/* Section Values */
+
+.values {
+	padding: 100px 0;
+}
+
+.titulo-value {
+	text-align: center;
+}
+
+.el-hr {
+	margin-left: 42.5%;
+    max-width: 150px;
+    height: 2px;
+    border-top: 1px solid #C2B49A;
+    border-bottom: 1px solid #C2B49A;
+}
+
+.titulo-value h1 {
+	font-size: 50px;
+}
+
+.titulo-value p {
+	font-size: 18px;
+	font-weight: 200;
+	padding-bottom: 20px;	
+}
+
+/* Compras */
+
+.circulo-icono i.fa {
+    font-size: 30px;
+    line-height: 70px;
+    width: 75px;
+    height: 75px;
+    text-align: center;
+    border: 3px solid #222;
+    border-radius: 100%;    
+}
+
+.lista-values h3 {
+	font-size: 28px;
+	text-align: left;
+	margin-bottom: 15px;
+}
+
+.lista-values li {
+	line-height: 1.5;
+	font-size: 16px;
+	text-align: left;
+	margin-bottom: 10px;
+	font-weight: 200;
+}
+
+.lista-values li em {
+	padding-left: 10px;
+}
+
+/* Section Great Food */
+
+.great-food {
+	background-image: url(../img/bg-quote.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;	
+	padding: 300px 0;
+	text-align: center;
+}
+
+.frase-great-food {
+    font-size: 40px;
+    line-height: 42px;
+    color: white;
+    font-weight: 200;
+}    
+
+.boton-great-food {
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 0;
+    font-weight: 900;
+    padding: 12px 18px;
+    letter-spacing: 1px;
+    border-radius: 0;
+    font-size: 16px;
+}
+
+.boton-great-food:hover {
+	background-color:  #C2B49A;
+    border: 1px solid #C2B49A;	
+}
+
+/* Section People */
+
+.people {
+	padding: 100px 0;
+	background-color: #F5F5F5;
+}
+
+.titulo-people h1 {
+	font-size: 50px;
+}
+
+.titulo-people  p {
+	font-size: 18px;
+	font-weight: 200;
+	padding-bottom: 5px;	 	
+}
+
+.img-people-caja {
+	margin-right: 10px;
+    margin-left: 10px; 
+}   
+
+.img-people {
+	width: 33.33333333%;
+	height: 350px;
+}
+
+.mascara {
+    position: absolute;
+    z-index: 0.5;
+    top: 0;
+    left: 15px;
+	width: 350px;
+	height: 350px;
+    opacity: 0.5;
+    background-color: #222;
+}
+
+.img-people-1 {
+	background-image: url(../img/sr-1.jpg);
+	position: relative;
+}
+
+.img-people-2 {
+	background-image: url(../img/sr-2.jpg);
+	position: relative;	
+}
+
+.img-people-3 {
+	background-image: url(../img/sr-3.jpg);
+	position: relative;	
+}
+
+.img-people-1,
+.img-people-2,
+.img-people-3 {
+	width: 350px;
+	height: 350px; 
+	background-repeat: no-repeat;
+	background-position: center;	
+	background-size: cover;	
+}
+
+.text-people {
+	color: white;
+	padding-top: 120px;
+	position: absolute;
+	top: 0;
+    left: 60px;
+    opacity: 0.7;
+}
+
+.text-people h3 {
+	font-size: 28px;
+	color: white;
+}
+
+.text-people em {
+	font-size: 16px;
+	font-weight: 200;
+	color: white;	
+}
+
+.el-hr-2 {
+	margin-left: 40%;
+    max-width: 50px;
+    height: 2px;
+    border-top: 1px solid #C2B49A;
+    border-bottom: 1px solid #C2B49A;	
+    margin-top: 5px;
+    margin-bottom: 5px;    
+}
+
+.text-people ul{
+	padding-top: 10px;
+}
+
+.text-people ul li {
+	display: inline-block;
+	padding: 0 5px;
+}
+
+.text-people ul li a {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.text-people ul li a i {
+	font-size: 18px;
+}
+
+/* Section Press */
+
+.press {
+	padding: 100px 0;
+}
+
+.titulo-press h1 {
+	font-size: 50px;
+}
+
+.titulo-press p {
+	font-size: 18px;
+	font-weight: 200;
+	padding-bottom: 5px;	 	
+}
+
+.el-texto-carrusel {
+	padding: 50px 0;
+}
+
+/* Botones Carrusel */
+.carousel-control.left,
+.carousel-control.right {
+    background-image: none;
+    background-repeat: no-repeat;
+}
+
+.glyphicon {
+	margin-left: 10px;
+	padding-top: 15px;	
+	color: white;
+	background-color: #DAD2C1;
+}
+
+.carousel-control .glyphicon-chevron-left, 
+.carousel-control .glyphicon-chevron-right, 
+.carousel-control .icon-next, 
+.carousel-control .icon-prev {
+    width: 50px;
+    height: 60px;
+    margin-top: -10px;
+    font-size: 30px;
+}
+
+/* Otros */
+
+.el-hr-3 {
+	margin-left: 40%;
+    max-width: 150px;
+    height: 2px;
+    border-top: 1px solid #C2B49A;
+    border-bottom: 1px solid #C2B49A;
+}
+
+.rounded-circle {
+	border-radius: 50%;
+	width: 80px;
+}
+
+.fa-star {
+	color: #EFBA00;
+}
+
+.cita {
+    font-size: 24px;
+    text-transform: uppercase;
+}
