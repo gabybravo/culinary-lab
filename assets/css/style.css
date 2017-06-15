@@ -10,9 +10,10 @@ h1,h2,h3,h4,h5,h6 {
 	margin: 0;
 }
 
-/* Header */
 
-.el-header {
+/* HEADER */
+
+.header {
 	background-image: url(../img/bg-header.jpg);
 	height: 100vh;
 	background-size: cover;
@@ -30,13 +31,10 @@ h1,h2,h3,h4,h5,h6 {
     color: #FFF;
 }
 
-
 .navbar-default .navbar-nav>li>a:focus, 
 .navbar-default .navbar-nav>li>a:hover {
     color: #BFBFBF;
 }
-
-/* Banner */
 
 .savory-culinary {
 	margin-top: 100px;
@@ -48,7 +46,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .savory-down {
-	padding-top: 120px;
+	padding-top: 170px;
 }
 
 .circulo-down {
@@ -69,7 +67,7 @@ h1,h2,h3,h4,h5,h6 {
     border-color: #BFBFBF;
 }
 
-/* Section Values */
+/* SECTION VALUES */
 
 .values {
 	padding: 100px 0;
@@ -80,24 +78,22 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .el-hr {
-	margin-left: 42.5%;
     max-width: 150px;
     height: 2px;
+    margin-left: 43.3%;
     border-top: 1px solid #C2B49A;
     border-bottom: 1px solid #C2B49A;
 }
 
-.titulo-value h1 {
+.titulo-value h1{
 	font-size: 50px;
 }
 
-.titulo-value p {
+.titulo-value p{
 	font-size: 18px;
 	font-weight: 200;
 	padding-bottom: 20px;	
 }
-
-/* Compras */
 
 .circulo-icono i.fa {
     font-size: 30px;
@@ -127,7 +123,8 @@ h1,h2,h3,h4,h5,h6 {
 	padding-left: 10px;
 }
 
-/* Section Great Food */
+
+/* SECTION GREAT FOOD */
 
 .great-food {
 	background-image: url(../img/bg-quote.jpg);
@@ -137,6 +134,7 @@ h1,h2,h3,h4,h5,h6 {
 	background-position: center;	
 	padding: 300px 0;
 	text-align: center;
+    background-attachment: fixed;
 }
 
 .frase-great-food {
@@ -162,7 +160,7 @@ h1,h2,h3,h4,h5,h6 {
     border: 1px solid #C2B49A;	
 }
 
-/* Section People */
+/* SECTION PEOPLE */
 
 .people {
 	padding: 100px 0;
@@ -180,13 +178,11 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .img-people-caja {
-	margin-right: 10px;
-    margin-left: 10px; 
-}   
+	padding: 30px
+}
 
 .img-people {
-	width: 33.33333333%;
-	height: 350px;
+	margin-bottom: 10px;
 }
 
 .mascara {
@@ -194,32 +190,22 @@ h1,h2,h3,h4,h5,h6 {
     z-index: 0.5;
     top: 0;
     left: 15px;
-	width: 350px;
-	height: 350px;
+	width: 100%;
     opacity: 0.5;
     background-color: #222;
-}
-
-.img-people-1 {
-	background-image: url(../img/sr-1.jpg);
-	position: relative;
-}
-
-.img-people-2 {
-	background-image: url(../img/sr-2.jpg);
-	position: relative;	
-}
-
-.img-people-3 {
-	background-image: url(../img/sr-3.jpg);
-	position: relative;	
 }
 
 .img-people-1,
 .img-people-2,
 .img-people-3 {
-	width: 350px;
-	height: 350px; 
+	width: 100%;
+	height: 100%; 
+}
+
+.img-people-1 img,
+.img-people-2 img,
+.img-people-3 img {
+	width: 100%;
 	background-repeat: no-repeat;
 	background-position: center;	
 	background-size: cover;	
@@ -255,7 +241,7 @@ h1,h2,h3,h4,h5,h6 {
     margin-bottom: 5px;    
 }
 
-.text-people ul{
+.text-people ul {
 	padding-top: 10px;
 }
 
@@ -272,7 +258,7 @@ h1,h2,h3,h4,h5,h6 {
 	font-size: 18px;
 }
 
-/* Section Press */
+/* SECTION PRESS */
 
 .press {
 	padding: 100px 0;
@@ -292,7 +278,8 @@ h1,h2,h3,h4,h5,h6 {
 	padding: 50px 0;
 }
 
-/* Botones Carrusel */
+/* BOTONES CARRUSEL */
+
 .carousel-control.left,
 .carousel-control.right {
     background-image: none;
@@ -316,16 +303,6 @@ h1,h2,h3,h4,h5,h6 {
     font-size: 30px;
 }
 
-/* Otros */
-
-.el-hr-3 {
-	margin-left: 40%;
-    max-width: 150px;
-    height: 2px;
-    border-top: 1px solid #C2B49A;
-    border-bottom: 1px solid #C2B49A;
-}
-
 .rounded-circle {
 	border-radius: 50%;
 	width: 80px;
@@ -336,6 +313,209 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .cita {
-    font-size: 24px;
+    font-size: 20px;
     text-transform: uppercase;
+}
+
+/* SECTION NEWSLETTER */
+
+.newsletter {
+	padding: 80px 0;
+	background-color: #191919;
+	color: white;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: 8px 12px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #fff;
+    border-radius: 0;
+}    
+
+.input-group-addon {
+    padding: 6px 35px;
+    font-size: 19px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    color: white;
+    background-color: #B0A083;
+    border: 1px solid #B0A083;
+    border-radius: 0;
+}
+
+/* SECTION HOURS */
+
+.horarios {
+	background-image: url(../img/bg-pricing.jpg);
+	color: white;	
+	padding: 50px 0;	
+    background-attachment: fixed;
+	background-size: cover;	
+}
+
+.horarios-2 {
+	padding: 50px 0;	
+}
+
+.titulo-horarios h2 {
+	font-size: 50px;
+}
+
+.titulo-horarios  p {
+	font-size: 18px;
+	font-weight: 200;
+	padding-bottom: 5px;	 	
+}
+
+.item-caja h3 {
+	font-size: 28px;
+	padding-bottom: 5px;
+}
+
+.las-cajas-horarios {
+	width: 100%;
+}
+
+.text-caja-horarios {
+	width: 100%;
+}
+
+.cajas-horarios {
+    color: #000;
+    padding-bottom: 30px;
+    padding-left: 50px;
+}
+
+.caja-hora {
+	width: 100%;
+	padding: 30px;
+	height: auto;
+	background-color: #FFFFFF;
+	box-shadow: 3px 3px 20px #000;	
+}
+
+.item-caja ul li div {
+	font-size: 16px;
+	font-weight: 200;
+}
+
+.list-group {
+	margin-top: 10px;
+}
+
+.btn-horarios {
+	margin-top: 20px;
+	color: #000;
+	font-weight: 900;
+    padding: 12px 18px;
+    letter-spacing: 1px;
+    border-radius: 0;
+	border: 1px solid #000;
+    background-color: transparent;    
+}
+
+.btn-horarios:hover, 
+.btn-horarios:focus {
+    color: white;
+    border-color: #C2B49A;
+    background-color: #C2B49A;
+}
+
+/* SECTION MENU */
+
+.menu {
+	padding: 80px 0;	
+}
+
+.img-menu img {
+	width: 100%;
+}
+
+.puntos-menu {
+	padding: 20px 0;
+}
+
+.circulo-cambio {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin: 5px 7px;
+	opacity: 0.5;
+    opacity: 0.5;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    background: #869791;
+}
+
+/* SECTION BUY */
+
+.buy {
+	background-color: #1A1A1A;
+	padding: 30px 0;
+}
+
+.texto-buy {
+	font-size: 26px;
+	font-weight: 200;
+	color: white;
+}
+
+.buy:hover {
+	color: white;
+    background-color: #C2B49A;
+    -webkit-transition: all .2s ease-in-out; /*transición cambio color*/
+    -o-transition: all .2s ease-in-out; /*transición cambio color*/
+    transition: all .2s ease-in-out;  /*transición cambio color*/
+}
+
+/* Footer */
+
+.footer {
+	background-image: url(../img/bg-footer.jpg);
+	color: white;	
+	padding: 100px 0 20px 0;	
+    background-attachment: fixed;
+	background-size: cover;
+}
+
+.texto-footer {
+	padding-bottom: 20px;
+}
+
+.texto-footer h4 {
+	font-size: 26px;
+	padding-bottom: 4px;
+	opacity: 0.9;	
+}
+
+.texto-footer p {
+	font-size: 20px;
+	opacity: 0.9;
+}
+
+.redes-sociales-footer {
+	padding: 80px 0 40px 0;
+}
+
+.redes-sociales-footer i {
+	color: white;
+	opacity: 0.9;
+}
+
+.footer-2 {
+	padding: 20px 0 0 0;	
+	font-weight: 200;
+}
+
+.footer-2 p {
+	font-size: 16px;
 }

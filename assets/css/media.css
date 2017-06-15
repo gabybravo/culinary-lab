@@ -1,0 +1,36 @@
+@media (min-width: 1px) and (max-width: 425px) {
+	.header {
+		height: 165vh;
+	}
+
+	.navbar-default {
+		background-color: #000;	
+		padding: 20px 0;
+	}
+
+	.navbar-brand {
+	    padding: 0 15px;
+    }	
+
+	.savory-down {
+	    padding-top: 140px;
+	}
+
+	.savory-culinary img {
+		margin-top: -85px;
+		width: 170px;
+	}
+
+	.el-hr {
+	    margin-left: 27%;
+	}
+
+	.titulo-value h1 {
+    	margin-top: -70px;
+	}
+
+	.text-people {
+		left: 60px;
+		top: 100px;
+	}
+}
